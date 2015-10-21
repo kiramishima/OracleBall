@@ -1,0 +1,7 @@
+<!-- Estructura de una pagina , ejemplo con los metodos loaded y navigatedTo. Le quitamos la ActionBar-->
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
+  <StackLayout>
+  	<Image src="~/a.png" style="width:200; horizontal-align: center;" tap="ask"/>
+  	<Label text="{{ prediccion }}" style="color:white; text-align: center;"/>
+  </StackLayout>
+</Page>
